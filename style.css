@@ -1,0 +1,58 @@
+:root {
+    background-color: black;
+}
+
+.formContainer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 20%;
+}
+
+.imageContainer {
+    position: relative;
+    display: inline-block;
+}
+
+.imageContainer img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    position: absolute;
+    top: 25%;
+    left: 0%;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 75px;
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+.form {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.motto {
+    position: relative;
+    top: 20%;
+    font-weight: bolder;
+}
+
+.uI{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 30%;
+}
+
+.submit {
+    position: relative;
+    top:40%;
+    background-color: rgb(32, 5, 109);
+    color: bisque;
+}
